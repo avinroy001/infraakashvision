@@ -81,30 +81,31 @@ const Hero = () => {
       </div>
 
       {/* === TEXT SECTION BELOW IMAGE === */}
-      <div className="py-16 px-4 md:px-10 lg:px-20 bg-white">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 items-center">
-          {/* Left Column: Title */}
-          <div className="md:w-1/3">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1e3a8a] leading-tight">
-              The energy to connect
-            </h1>
-          </div>
+      <div className="min-h-[400px] py-26 px-4 md:px-10 lg:px-20 bg-white">
+  <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-12 items-start justify-start">
+    {/* Left Column: Title */}
+    <div className="md:w-1/2">
+      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1e3a8a] tracking-wider -ml-4 md:-ml-4 lg:-ml-20">
+        The energy to connect
+      </h1>
+    </div>
 
-          {/* Right Column: Description */}
-          <div className="md:w-2/3">
-            <p className="text-base md:text-lg text-[#1e3a8a] mb-4 leading-relaxed">
-              Hanab Telecom Infra takes care of the entire process of delivering
-              high-quality digital infrastructure — from analysis and design to
-              construction, installation, maintenance and management.
-            </p>
-            <p className="text-base md:text-lg text-[#1e3a8a] leading-relaxed">
-              Our ultimate goal? Optimal connectivity, down to the very last
-              square centimetre. That’s how we help make living and working as
-              comfortable as possible.
-            </p>
-          </div>
-        </div>
-      </div>
+    {/* Right Column: Description */}
+    <div className="md:w-1/2">
+      <p className="text-base md:text-lg text-[#1e3a8a] mb-2 tracking-wider">
+        Hanab Telecom Infra takes care of the entire process of delivering
+        high-quality digital infrastructure — from analysis and design to
+        construction, installation, maintenance and management.
+      </p>
+      <p className="text-base md:text-lg text-[#1e3a8a] tracking-wide">
+        Our ultimate goal? Optimal connectivity, down to the very last
+        square centimetre. That’s how we help make living and working as
+        comfortable as possible.
+      </p>
+    </div>
+  </div>
+</div>
+
     </div>
   );
 };
