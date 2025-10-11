@@ -30,17 +30,10 @@ const Footer = () => {
   return (
     <footer className="relative min-h-[400px] pt-20 pb-16 px-4 md:px-12 lg:px-20 rounded-tl-[120px] overflow-hidden">
       {/* Blob shape (bottom right) */}
-      
-      {/* <div className="absolute inset-0">
-      <div className="absolute top-0 right-0 w-[50%] h-full bg-[#057442] opacity-30 z-0"></div>
-      <div className="absolute top-0 left-0 w-[80%] h-full bg-[#318fd3] opacity-30 rounded-br-[190px] z-10"></div>
-  <div className="absolute top-0 left-0 w-[75%] h-[80%] bg-[#771515] opacity-30 rounded-br-[120px] z-20"></div>
-  </div> */}
-
   <div className="absolute inset-0 z-0">
-      <div className="absolute top-0 left-0 w-[35%] h-[100%] bg-[#057442] opacity-30 z-[-100] rounded-tl-[150px]"></div>
-      <div className="absolute top-0 left-0 w-[80%] h-full bg-[#318fd3] opacity-30 rounded-br-[190px] z-[3]"></div>
-      <div className="absolute top-0 left-0 w-[75%] h-[80%] bg-[#771515] opacity-30 rounded-br-[120px] z-[5]"></div>
+      <div className="z-0 absolute top-0 right-0 w-[70%] h-[100%] bg-[#057442] opacity-10"></div>
+      <div className="absolute top-0 left-0 w-[80%] h-full bg-[#318fd3] opacity-90 rounded-br-[190px] z-10"></div>
+      <div className="absolute top-0 left-0 w-[75%] h-[80%] bg-[#771515] opacity-80 rounded-br-[120px] z-20"></div>
   </div>
   
       {/* Main Content */}
